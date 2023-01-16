@@ -1,0 +1,35 @@
+*, ::before, ::after{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    height: 100vh;
+    background: #f1f1f1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1{
+    margin: 2% 1%;
+    text-transform: uppercase;
+}
+
+.btn01, .btn02{
+    width: 120px;
+    height: 30px;
+    background: #93c0f3;
+    font-weight: bold;
+    border: #222;
+    border-radius: 15px;
+    cursor: pointer;
+    margin: 10px;
+    transition: all .3s ease-in-out;
+}
+
+.btn01:hover, .btn02:hover{
+    box-shadow: 0px 3px 9px #757474;
+}

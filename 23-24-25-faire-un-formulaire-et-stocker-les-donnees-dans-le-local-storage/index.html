@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <link rel="icon" type="image/png" href="favicon/favicon-js.png">
+        <title>JavaScript23-24-25</title>
+    </head>
+    <body>
+        <h1>Faire un formulaire puis stocker les données dans le local storage avec JavaScript</h1>
+
+        <form action="">
+            <fieldset>
+                <legend class="legend-genre">Genre</legend>
+                <p>
+                    <input type="radio" name="genre" id="homme" value="homme">
+                    <label for="homme">Homme</label>
+                </p>
+                <p>
+                    <input type="radio" name="genre" id="femme" value="femme">
+                    <label for="femme">Femme</label>
+                </p>
+            </fieldset>
+            <fieldset>
+                <legend class="legend-nom">Nom et Prénom</legend>
+                <p>
+                    <label for="nom">Nom : </label>
+                    <input type="text" placeholder="Ex: Dupond" name="nom" id="nom">
+                </p>
+                <p>
+                    <label for="nom">Prénom : </label>
+                    <input type="text" placeholder="Ex: jean" name="prenom" id="prenom">
+                </p>
+            </fieldset>
+            <fieldset class="fieldset-textarea">
+                <legend class="legend-commentaire">Commentaire</legend>
+                <textarea placeholder="Laissez vos commentaires ici..." name="formulaire" id="formulaire" cols="30" rows="10"></textarea>
+            </fieldset>
+        </form>
+
+        <button class="btn">Envoyer le formulaire</button>
+
+        <h2>Données stockées dans le local storage:</h2>
+        
+        <div class="dataStorage">
+            <p>Le genre est : <span id="genre"></span></p>
+            <p>le nom est : <span id="lenom"></span></p>
+            <p>le prénom est : <span id="leprenom"></span></p>
+            <p>le commentaire est : <span id="commentaire"></span></p>
+        </div>    
+    </body>
+    <script src="index.js"></script>
+</html>
