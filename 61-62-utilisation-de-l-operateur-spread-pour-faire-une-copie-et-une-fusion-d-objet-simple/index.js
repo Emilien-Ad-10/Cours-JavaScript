@@ -1,4 +1,4 @@
-//Copier un objet se fait de la même manière qu'un tableau:
+//Copier un objet s'effectue de la même manière qu'un tableau:
 let perso01 = {
     nom: "Doe",
     prenom: "John",
