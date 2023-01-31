@@ -1,4 +1,4 @@
-//Utilisation de l'opérateur rest dans une fonction lorsque le nombre de paramètre est inconnu:
+//Utilisation de l'opérateur REST dans une fonction lorsque le nombre de paramètre est inconnu:
 //previous = précédent
 //current = courant / actuel
 //current Value = valeur courante / actuelle
