@@ -1,0 +1,15 @@
+{
+  "name": "68-telecharger-le-code-d-un-serveur-node-js-backend-et-le-faire-fonctionner-en-local",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sass": "sass --watch ./sass/scss/:./sass/css/"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "sass": "^1.58.0"
+  }
+}
